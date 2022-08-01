@@ -11,7 +11,7 @@ Ansible Role: LightHouse
 Example Playbook
 ----------------
 
-- name: Install LightHouse
-  hosts: lighthouse
-  roles:
+- name: Install LightHouse  
+  hosts: lighthouse  
+  roles:  
     - ansible-role-lighthouse
